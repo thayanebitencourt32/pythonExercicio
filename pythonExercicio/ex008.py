@@ -1,0 +1,2 @@
+valormetro=int(input('Informe o valor em m a ser convertido: '))
+print('O valor {} em metros, equivale a : \n{} km\n{} hm\n{} dam\n{:.0f} dm\n{:.0f} cm\n{:.0f} mm'.format(valormetro,valormetro/1000,valormetro/100,valormetro/10,valormetro*10,valormetro*100,valormetro*1000))
