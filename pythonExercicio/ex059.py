@@ -15,18 +15,18 @@ opção = int(input('Qual a opção desejada?  '))
     elif opção == 2:
         multiplicacao =  num1*num2
         print('O produto entre os dois números foi: {}'.format(multiplicacao))
-    elif opção === 3:
+    elif opção == 3:
         if num1>num2:
             print('O primeiro número {}, foi maior que o segundo {}.'.format(num1,num2))
         elif num2>num1:
             print('O segundo número {}, é maior que o primeiro {}.'.format(num2,num1))
         else:
             print('Os números são iguais')
-    elif opção ===4:
+    elif opção == 4:
         print('Informe os números novamente: ')
         num1 = int(input('Informe o primeiro número: '))
         num2 = int(input('INforme o segundo número: '))
-    elif opção === 5:
+    elif opção == 5:
         print('Até mais. Obrigado!')
     else:
         print('Opção inválida, tente novamente.')

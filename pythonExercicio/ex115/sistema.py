@@ -2,7 +2,7 @@ from time import sleep
 from pythonExercicio.ex115.lib.arquivo import *
 from pythonExercicio.ex115.lib.interface import *
 
-arq = "meunovoarquivo.txt"
+arq = "meunovoarquivo.txt.old"
 
 if not arquivoExiste(arq):
 	criarArquivo(arq)
@@ -10,7 +10,7 @@ if not arquivoExiste(arq):
 while True:
 	resposta = menu(['Pessoas cadastradas','Cadastrar novo', 'Sair '])
 	if resposta == 1:
-		#opção de ler arquivo
+		#opção de ler consulta
 		lerArquivo(arq)
 	elif resposta == 2:
 		cabecalho('Novo Cadastro')

@@ -25,7 +25,7 @@ def lerArquivo(nome):
 	try:
 		a = open(nome, 'rt')
 	except:
-		print('Erro ao ler arquivo')
+		print('Erro ao ler consulta')
 	else:
 		cabecalho('Pessoas cadastradas')
 		for linha in a:
@@ -39,7 +39,7 @@ def cadastrar(arq, nome='desconhecido', idade=0):
 	try:
 		a = open(arq,'at')
 	except:
-		print('Houve um erro na abertura do arquivo')
+		print('Houve um erro na abertura do consulta')
 	else:
 		try:
 			a.write(f'{nome};{idade}\n')
